@@ -1,0 +1,6 @@
+root@server1 ~ # ping 8.8.8.8 -c 3
+구글과 pingpong count 3 //3번
+
+NIC network interface card
+elastic 탄력적으로
+connection 증가시 늘어남
