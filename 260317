@@ -1,0 +1,6 @@
+$ gedit /etc/passwd 하면 txt파일 열림
+
+사용자권한
+adduser
+
+ch05_리눅스 사용자 관리와 파일 관리 #14 실습
