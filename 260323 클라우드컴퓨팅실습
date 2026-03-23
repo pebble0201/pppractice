@@ -1,0 +1,6 @@
+mobaXterm
+
+sudo whomai
+
+**방화벽 해제
+vi /etc/hosts
