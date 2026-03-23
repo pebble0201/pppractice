@@ -4,3 +4,17 @@ sudo whomai
 
 **방화벽 해제
 vi /etc/hosts
+
+app root dir로 만들어볼..
+pwd
+mkdir app
+ls
+sudo chroot /home/admin/app
+shell이 없어서 에러 뜸
+shell 넣기
+ldd /bin/bash 뭐가 필요해?라고 묻는거
+
+컨테이너
+경량.속도빠름 가장 큰 장 점 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+독립된공간 어쩌고 스크린샷에 저장해뒀음
