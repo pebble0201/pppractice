@@ -24,3 +24,7 @@ touch practice.txt //p.txt 파일 만듦
 pwd
 ls
 cat practice.txt // 파일 내용 확인
+
+ifconfig ens33으로 확인 inet
+
+shift spacebar 한글
