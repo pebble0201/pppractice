@@ -1,0 +1,10 @@
+http 요청 메시지
+method 서버가ㅓ 수행해야 할 동작 정의
+get 서버가 자원을 전송해 줄 것을 요청
+post ㅇ청 바디를 통해 클라이언트가 서버로 데이터 전송
+head
+options...
+put, delete는 잘 사용하지 않음 server에 영향을 줌
+
+상대경로 / 절대경로
+http버전..
