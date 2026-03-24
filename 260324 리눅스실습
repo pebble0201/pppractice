@@ -1,1 +1,26 @@
 gedit test.txt //gedit으로 파일 만들기
+
+whatis ls 명령어에 대한 간단한 설명
+
+pwd 
+/home/jimyeong
+
+mkdir chang
+cd chang
+mkdir test
+cd test
+gedit cs1.txt (touch cs1.txt)
+그 안 보기 cat cs1.txt
+이름 변경 mv c.txt backup txt
+삭제 rm b.txt
+복사하고 싶 cp test.txt study/ study디렉토리로 복사
+study디렉토리 삭제 rm -r study
+
+/home/jimyeong/chang/test/cs1.txt
+
+mkdir linux //linux 생성
+cd linux //linux로 이동
+touch practice.txt //p.txt 파일 만듦
+pwd
+ls
+cat practice.txt // 파일 내용 확인
