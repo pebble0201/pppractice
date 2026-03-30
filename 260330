@@ -99,3 +99,125 @@
 ### 4. 웹페이지 확인
 
 웹브라우저 : http://192.168.100.10
+
+
+
+
+
+
+
+****** ㄴㅐ 웹페이지
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>나의 귀여운 웹 서버 ☁️⭐️</title>
+<style>
+    /* 전체 스타일 */
+    body {
+        font-family: 'Nanum Gothic', Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(to bottom, #a0d8f1, #ffffff);
+        overflow-x: hidden;
+        position: relative;
+        height: 100vh;
+        color: #333;
+    }
+
+    /* 헤더 */
+    h1 {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 2.5em;
+        color: #2c3e50;
+    }
+
+    p {
+        text-align: center;
+        font-size: 1.2em;
+        margin-bottom: 40px;
+    }
+
+    /* 리스트 카드 */
+    h2 {
+        color: #34495e;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0 20px;
+    }
+
+    li {
+        background: #ffffffaa;
+        margin: 10px 0;
+        padding: 15px 20px;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        font-size: 1.1em;
+        transition: transform 0.2s;
+    }
+
+    li:hover {
+        transform: translateY(-5px);
+    }
+
+    /* 구름, 별, 하트 */
+    .cloud, .star, .heart {
+        position: absolute;
+        animation: float linear infinite;
+        pointer-events: none;
+    }
+
+    .cloud {
+        width: 100px;
+        opacity: 0.7;
+        top: 50px;
+    }
+
+    .star {
+        width: 20px;
+        top: 20%;
+        opacity: 0.9;
+    }
+
+    .heart {
+        width: 25px;
+        opacity: 0.8;
+        top: 30%;
+    }
+
+    @keyframes float {
+        0% { transform: translateX(-150px); }
+        100% { transform: translateX(110vw); }
+    }
+
+</style>
+</head>
+<body>
+
+<h1>👋 안녕하세요, 저는 안지명입니다</h1>
+<p>제 서버에 오신 걸 환영해요! ☁️⭐️</p>
+
+<h2>📌 About Me</h2>
+<ul>
+    <li>이름: ㅇㅈㅁ</li>
+    <li>취미: 영화보기 🎬🍿</li>
+    <li>좋아하는 음식: 순두부찌개 🍲</li>
+    <li>싫어하는 음식: 내가 못먹는 음식 ❌</li>
+    <li>올해 나의 목표: 적당한 회사 입사 💼</li>
+    <li>클래스에서 나는: 돌멩이 🪨</li>
+</ul>
+
+<!-- 구름, 별, 하트 이미지 -->
+<img src="https://i.ibb.co/6wZqYBx/cloud.png" class="cloud" style="top:50px; animation-duration:60s;">
+<img src="https://i.ibb.co/6wZqYBx/cloud.png" class="cloud" style="top:150px; animation-duration:80s; width:150px;">
+<img src="https://i.ibb.co/2kY6H3f/star.png" class="star" style="top:30px; animation-duration:30s;">
+<img src="https://i.ibb.co/2kY6H3f/star.png" class="star" style="top:120px; animation-duration:45s; width:15px;">
+<img src="https://i.ibb.co/fF5Lw9H/heart.png" class="heart" style="top:200px; animation-duration:35s;">
+
+</body>
+</html>
