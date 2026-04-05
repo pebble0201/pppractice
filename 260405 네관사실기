@@ -1,0 +1,70 @@
+1) 인터페이스 정보를 확인하고 저장하시오.
+
+Router> en
+
+Router# show interface
+
+Router# copy r s
+
+2) 접속한 사용자 정보를 확인하고 저장하시오.
+
+Router> en
+
+Router# show user
+
+Router# copy r s
+
+3) 라우팅 테이블 정보를 확인하고 저장하시오.
+
+Router> en
+
+Router# show ip route
+
+Router# copy r s
+
+4) 플래쉬 내용을 확인하고 저장하시오.
+
+Router> en
+
+Router# show flash
+
+Router# copy r s
+
+5) 프로세스 정보를 확인하고 저장하시오.
+
+Router> en
+
+Router# show process
+
+Router# copy r s
+
+6) ROUTER1 console 0의 패스워드를 ICQA로 설정하고 로그인하시오.
+
+Router# en
+
+Router# conf t
+
+Router(config) # line console 0
+
+Router(config-line) # password ICQA
+
+Router(config-line) # login
+
+Router(config) # exit
+
+Router# exit
+
+Router# copy r s
+
+7) 기본 게이트웨이를 설정하시오. IP:192.168.0.10
+
+Router> en
+
+Router# conf t
+
+Router(config) # ip default-gateway 192.168.0.10
+
+Router(config) # exit
+
+Router# copy r s
+
